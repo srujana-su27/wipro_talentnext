@@ -1,14 +1,16 @@
 package java_fundamentals;
-import java.util.*;
+
 public class Question1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
-		String str1 = sc.nextLine();
-		String str2 = sc.nextLine();
-		System.out.println(str1 + " Technologies " + str2);
-		sc.close();
-	}
+		if (args.length != 2) {
+			System.out.println("Error: Please provide exactly 2 command-line arguments.");
+			return;
+		}
 
+		String city1 = args[0];
+		String city2 = args[1];
+
+		System.out.println(city1 + " technologies " + city2);
+	}
 }

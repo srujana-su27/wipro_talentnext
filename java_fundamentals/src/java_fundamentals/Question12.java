@@ -5,7 +5,7 @@ public class Question12 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		 String input = sc.nextLine().trim();  
+		String input = sc.nextLine().trim();  
 	        if (input.isEmpty()) {
 	            System.out.println("Please enter the month in numbers");
 	            return;

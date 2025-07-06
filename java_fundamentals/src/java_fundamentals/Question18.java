@@ -19,7 +19,7 @@ public class Question18 {
 					System.out.print("* ");
 				}
 				System.out.println();
-			}
+			}w
 		}
 	}
 
