@@ -1,6 +1,4 @@
-package abstraction;
-import com.automobile.twowheeler.Hero;
-import com.automobile.twowheeler.Honda;
+package com.automobile.twowheeler;
 public class Test {
 
 	public static void main(String[] args) {
